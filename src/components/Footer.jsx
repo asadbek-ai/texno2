@@ -12,10 +12,10 @@ const Footer = () => {
   return (
     <div className=" text-[white] bg-orange-500 ">
       <div className=" flex gap-3 text-[white] bg-orange-500 px-[80px] py-[40px]">
-        <div className=" flex flex-col justify-between gap-2 w-[40%]">
+        <div className=" flex-col  gap-2 w-[40%] lg:text-[15px] md:text-[12px] sm:text-[10px] flex ">
           <h1 className=" text-[25px]">Travel Toor</h1>
           <div>
-            <p className=" w-[70%]">
+            <p className=" w-[70%] ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
               molestiae praesentium doloremque totam enim fugiat tempore.
             </p>
@@ -38,9 +38,9 @@ const Footer = () => {
             traveltoor©2024 all right reserve
           </p>
         </div>
-        <div className="flex flex-col justify-between gap-2 w-[35%]">
+        <div className="flex flex-col  gap-2 w-[35%]">
           <h1 className=" text-[25px]">Contact</h1>
-          <div className=" flex flex-col gap-2">
+          <div className=" flex flex-col gap-2 lg:text-[15px] md:text-[12px] sm:text-[10px]">
             <div className=" flex gap-3 items-center">
               <GoLocation />
               <p>Any Ware, Any Rod, Xyz (142 234)</p>

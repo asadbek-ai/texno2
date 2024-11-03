@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <Container>
       <div className=" h-[80vh]">
-        <h1 className=" text-[45px] font-[600] text-orange-500 py-6 border-b-[2px]">
+        <h1 className=" text-[45px]  text-orange-500 py-6 border-b-[2px] lg:text-[45px] font-bold md:text-[35px] sm:text-[30px] sm:w-[60%] lg:w-[40%]">
           Contact
         </h1>
         <div className=" flex gap-[20px] p-5">

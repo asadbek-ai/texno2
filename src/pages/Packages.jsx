@@ -8,10 +8,10 @@ const Packages = () => {
     <Container>
       <div className=" relative flex gap-4 items-center h-[80vh] my-8 shadow-2xl p-[40px] overflow-hidden ">
         <div className=" w-[50%]">
-          <h1 className=" text-[45px] font-[600] text-orange-500">
+          <h1 className=" text-[45px] lg:text-[45px] font-bold md:text-[35px] sm:text-[30px] sm:w-[60%] lg:w-[40%] text-orange-500">
             Tour Packages
           </h1>
-          <p className=" font-[500] w-[70%]">
+          <p className=" lg:text-[20px] font-[400] md:text-[15px] sm:text-[12px] w-[70%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsam
             qui quos laudantium quas id beatae, non pariatur nemo, tempora
             deserunt ducimus. Distinctio sequi dolor non fuga tenetur commodi
